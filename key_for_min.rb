@@ -7,6 +7,8 @@ def key_for_min_value(name_hash)
   new_array = []
   name_hash.each do |x, price|
     if price
+    end
+  end
   # x if price <= name_hash.all?
     
   #end.compact
