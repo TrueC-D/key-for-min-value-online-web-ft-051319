@@ -3,7 +3,7 @@ require "pry"
 # Given a hash with numeric values, return the key for the smallest value
  
 def key_for_min_value(name_hash)
-  min_price = 0
+  min_price = nil
   min_name = nil
   if min_price > price
     min_price = price
