@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
     if min_price > price || min_price == nil
     min_price = price
     min_name = name
+    end
     
   end
   # x if price <= name_hash.all?
