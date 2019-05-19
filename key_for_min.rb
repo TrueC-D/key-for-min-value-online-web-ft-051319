@@ -3,11 +3,10 @@ require "pry"
 # Given a hash with numeric values, return the key for the smallest value
  
 def key_for_min_value(name_hash)
-  binding.pry
+  
   new_array = []
-  name_hash.each do |x, price|
-    if price
-    end
+  name_hash.each do |name, price| 
+    binding.pry
   end
   # x if price <= name_hash.all?
     
