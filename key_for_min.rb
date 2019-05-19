@@ -7,7 +7,6 @@ def testing (test)
 end
 
 def key_for_min_value(name_hash)
- binding.pry
   #name_hash.collect do |x, price|
     
   # x if price <= name_hash.all?
