@@ -3,9 +3,9 @@
  
 def key_for_min_value(name_hash)
  
-  name_hash.collect do |x, price|
+  #name_hash.collect do |x, price|
     
-    x if price <= name_hash.all?(true)
+  # x if price <= name_hash.all?(true)
     
-  end.compact
+  #end.compact
 end
