@@ -13,7 +13,5 @@ def key_for_min_value(name_hash)
     end
     
   end
-  # x if price <= name_hash.all?
     binding.pry
-  #end.compact
 end
